@@ -1,0 +1,17 @@
+{
+    "name": "Seesaw",
+    "category": "misc",
+    "author": "cts @ zellic.io",
+    "description": "vault support multiple currency. so convenient!",
+    "flag": {
+      "content": "flag{so_imbalanced_plz_nerf_now!}",
+      "type": "static",
+      "path": ""
+    },
+    "box": "misc.chal.csaw.io",
+    "type": "dynamic",
+    "initial": 500,
+    "minimum": 50,
+    "decay": 20,
+    "files": ["contracts/Chal.sol", "contracts/IERC20.sol", "contracts/IUniswapV2Router.sol", "contracts/Setup.sol"]
+}
